@@ -6,6 +6,9 @@ const mongod = new MongoMemoryServer({
   instance: {
     port,
   },
+  binary: {
+    version:'4.4.1'
+  },
   autoStart: false,
 });
 
